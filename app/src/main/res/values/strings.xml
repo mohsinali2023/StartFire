@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">StartFire</string>
+    <string name="login">Login</string>
+    <string name="signupNow">Not Registered? Signup Now</string>
+    <string name="signup">SignUp</string>
+    <string name="loginNow">Already Registered? Login</string>
+    <string name="instructions">To update the Wi-Fi credentials, make sure your device is not connected to any other network. The process will create an Access Point (AP). Connect to this AP and click the button below;
+        it will redirect you to the page where you can update the Wi-Fi credentials.</string>
+</resources>

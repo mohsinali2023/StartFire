@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiant"
+    android:clipToPadding="true"
+    tools:context=".changeWifi">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/include3"
+            layout="@layout/toolbar" />
+
+        <TextView
+            android:id="@+id/changeWifiTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:padding="30dp"
+            android:text="Change IP Address"
+            android:textColor="@color/pressedcolor"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/guideTV"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/include3"
+            app:layout_constraintVertical_bias="0.287" />
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/guideTV"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginBottom="52dp"-->
+        <!--            android:gravity="center"-->
+        <!--            android:paddingHorizontal="25dp"-->
+        <!--            android:paddingVertical="4dp"-->
+        <!--            android:text="@string/instructions"-->
+        <!--            android:textColor="@color/white"-->
+        <!--            android:textSize="16sp"-->
+        <!--            app:layout_constraintBottom_toTopOf="@+id/connect"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.0"-->
+        <!--            app:layout_constraintStart_toStartOf="parent" />-->
+        <EditText
+            android:id="@+id/changeIp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="52dp"
+            android:gravity="center"
+            android:hint="Enter ip address"
+            android:textColorHint="@color/white"
+            android:paddingHorizontal="25dp"
+            android:paddingVertical="4dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:padding="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/connect"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="228dp"
+            android:background="@drawable/stroke"
+            android:backgroundTint="@color/pressedcolor"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:padding="17dp"
+            android:text="Change IP"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="left"
+        android:layout_gravity="start">
+        <include layout="@layout/nav_drawer"/>
+    </RelativeLayout>
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

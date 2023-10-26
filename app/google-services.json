@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "543561827164",
+    "project_id": "startfire-34da5",
+    "storage_bucket": "startfire-34da5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543561827164:android:b6202760017bbd3a007799",
+        "android_client_info": {
+          "package_name": "com.mohsinali.startfire"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWbRtpcApXLuXHQcihR_yz3U1_HfOEkWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
